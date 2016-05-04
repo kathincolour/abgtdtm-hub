@@ -11,3 +11,43 @@
  Tags:         
  Text Domain:  catch-adaptive-child
 */
+
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Orbitron:500);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic);
+
+.site-title {
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+/* Widgets */
+
+#supplementary.widget-title {
+    background-color: #4C05FF;
+}
+
+/*--------------------------------------------------------------
+Footer
+--------------------------------------------------------------*/
+#supplementary.two .widget-area {
+	width: 33.33%;
+}
+
+#supplementary.three .widget-area {
+	width: 33.33%;
+}
+
+#supplementary.four .widget-area {
+	width: 33.33%;
+}
+
+#footer-left-content,
+#footer-right-content {
+	width: 100%;
+}
